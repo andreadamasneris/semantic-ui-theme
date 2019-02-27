@@ -28,17 +28,16 @@ yarn-error.log*
 !.gitignore
 !.htaccess
 
-# Ignore everything from semantic
-# /semantic/*
+# Semantic UI
+# Ignore everything
 /semantic/src/definitions
 /semantic/src/site
 /semantic/src/themes/*
 /semantic/src/*.less
-/semantic/tasks/*
+/semantic/tasks
 /semantic/*.js
 
 # But not these files...
 !.gitignore
 !/semantic/src/theme.config
 !/semantic/src/themes/mytheme/
-# etc...
