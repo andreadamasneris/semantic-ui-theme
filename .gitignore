@@ -38,6 +38,5 @@ yarn-error.log*
 /semantic/*.js
 
 # But not these files...
-!.gitignore
 !/semantic/src/theme.config
 !/semantic/src/themes/mytheme/
