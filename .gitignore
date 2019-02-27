@@ -22,5 +22,23 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/semantic
-# !/semantic/src/themes/avenue
+
+/static/**/**
+!/static/**/
+!.gitignore
+!.htaccess
+
+# Ignore everything from semantic
+# /semantic/*
+/semantic/src/definitions
+/semantic/src/site
+/semantic/src/themes/*
+/semantic/src/*.less
+/semantic/tasks/*
+/semantic/*.js
+
+# But not these files...
+!.gitignore
+!/semantic/src/theme.config
+!/semantic/src/themes/mytheme/
+# etc...
